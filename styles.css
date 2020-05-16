@@ -1,0 +1,94 @@
+html,
+body {
+    height: 100%;
+    text-align: center;
+    
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    font-family: Monoton;
+    font-size: 60px;
+    margin: 0.6em;
+}
+
+
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+    h2:first-of-type {
+        margin-top: 0.10em;
+    }
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 40px;
+}
+
+td {
+    width: 40px;
+}
+
+input[type=number] {
+    text-align: center;
+    outline: none;
+}
+
+#colorPicker {
+    width: 15%;
+}
+
+.box {
+    background-color: transparent;
+    border: 0.9px solid white;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 50px;
+    -webkit-box-shadow: 0px 10px 25px rgba(43, 46, 74, 0.3);
+    -moz-box-shadow: 0px 10px 25px rgba(43, 46, 74, 0.3);
+    box-shadow: 0px 10px 25px rgba(43, 46, 74, 0.3);
+}
+
+button {
+    border-radius: 20px;
+    outline: none;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    background: none;
+    border: 1px solid whitesmoke;
+}
+
+    button:hover {
+        color: #B6C3E7;
+    }
+
+a {
+    color: white;
+}
+
+    a:hover {
+        color: #86C34A;
+    }
+
+footer {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 6px 6px 8px black;
+}
